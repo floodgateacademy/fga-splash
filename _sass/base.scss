@@ -1,0 +1,142 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+  font-family:'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #163D60;
+  font-size: 14px;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.masthead {
+  background-color: #EBF8FF;
+  min-height: 400px;
+  padding: 50px 0 40px 0;
+  img.logo {
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .cta {
+    font-size: 21px;
+    font-weight: bolder;
+    margin-top: 30px;
+  }
+  .email-field {
+    font-family:'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* Rectangle 2: */
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 0;
+    text-align: center;
+    padding: 18px 15px;
+    margin-bottom: 10px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: 0 none;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: 'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #163D60;
+    letter-spacing: 1.21px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+  }
+  .btn-primary {
+    background: #163D60;
+    color: #ffffff;
+  }
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+  }
+ 
+  .btn-primary:active, .btn-primary.active {
+      background: #007299;
+      box-shadow: none;
+  }
+}
+
+.section-heading {
+  font-size: 16px;
+  color: #163D60;
+  letter-spacing: 1.06px;
+  line-height: 24px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: 'Gotham-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.team-intro {
+  font-family:'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #163D60;
+  letter-spacing: 0.36px;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+h3.name {
+  /* DeVaris Brown: */
+  font-family: 'Gotham-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #163D60;
+  letter-spacing: 0.56px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+h4.job-title {
+  font-family:'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #163D60;
+  letter-spacing: 0.36px;
+  line-height: 24px;
+}
+
+ul.qualifications {
+  font-family:'Gotham-Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #163D60;
+  letter-spacing: 0.36px;
+  line-height: 24px;
+}
+
+footer {
+  background-color: #EBF8FF !important;
+  color: #163D60;
+  padding-bottom: 30px;
+  .email-address {
+    font-family: 'Gotham-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #163D60;
+    letter-spacing: 0.36px;
+    line-height: 24px;
+  }
+
+  .email-address:hover, .email-address:visited{
+    color: #007299;
+    text-decoration: none;
+  }
+  .social-info a{
+    color: #163D60;
+  }
+  .social-info a:hover{
+    color: #007299;
+  }
+}
